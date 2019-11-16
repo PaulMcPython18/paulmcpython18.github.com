@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: #333;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+    transition-duration: 3s;
+}
+
+.nav-links{
+    display:flex;
+    /*background-color: red;*/
+    justify-content: space-around;
+    width: 500px;
+}
+
+.nav-links a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container {
+    background-color: rgb(211, 211, 211);
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+.image {
+    width: 100%;
+}
+
+.InImage {
+    /*text-shadow: 0px 0px 3px;*/
+    font-weight: bold;
+    position: absolute;
+    bottom: 30em;
+    right: 59em;
+    letter-spacing: 4px;
+    padding-left: 5em;
+ /*   width: 300px;
+    height: 200*/;
+    animation-name: myanimation;
+    animation-duration: 3.5s;
+    transition-duration: 3s;
+    transition-property: 3s;
+    /*background-color: rgb(255, 0, 0);*/
+    /*font-size: 66px;*/
+}
+
+.InImage:hover{
+    color: purple;
+    border-radius: 50%;
+}
+.logo:hover{
+    color: purple;
+}
+
+.gray-container {
+    text-align: center;
+}
+
+.Skills {
+    padding-top: 1em;
+    font-size: 50px;
+    padding-bottom: 1em;
+    transform: skewY(-1.5deg);
+}
+
+.lower-container {
+
+    margin-top: 1em;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    transform: skewY(-1.5deg);
+    letter-spacing: 3px;
+
+}
+
+.nav-links:hover{
+    transition-duration: 3s;
+    color: purple;
+}
+
+.landscape {
+    width:100%;
+}
+
+.torp {
+    margin-left: 5.5em;
+    margin-bottom: 1em;
+}
+
+.container {
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 2em;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gameimage:hover{
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}
+}
+@keyframes myanimation {
+    0% {left: 120em;}
+    25% {right:3em;}
+
+
+}
+
+@keyframes example {
+    0% {right: 2em;}
+    50% {left: 4em;}
+    100% {left: 2em;}
+
+}
+
+.end {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+.torp {
+    margin-left: 7em;
+}
+
+.regtorp {
+    margin-left: 12.5em;
+}
+
+.gameimage2 {
+    margin-top: 1.8em;
+    margin-left: 10em;
+}
+.footer-container{
+    background-color: rgb(211, 211, 211);
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    text-align: center;
+    margin-top: 2em;
+}
+
