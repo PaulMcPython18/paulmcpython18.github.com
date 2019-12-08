@@ -172,6 +172,7 @@ nav{
 
 .regtorp {
     margin-left: 12.5em;
+    /*margin-bottom: 4em;*/
 }
 
 .gameimage2 {
@@ -188,3 +189,11 @@ nav{
     margin-top: 2em;
 }
 
+.ani2 {
+    padding-top: 2em;
+    padding-top: 3em;
+}
+
+.ani {
+    padding-top: 1.5em;
+}
